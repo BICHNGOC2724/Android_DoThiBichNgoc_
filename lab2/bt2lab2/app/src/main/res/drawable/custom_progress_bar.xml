@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background of the ProgressBar -->
+    <item android:drawable="@android:color/darker_gray" />
+
+    <!-- Progress Indicator -->
+    <item>
+        <clip>
+            <shape android:shape="rectangle">
+                <solid android:color="#FF03DAC5" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>
