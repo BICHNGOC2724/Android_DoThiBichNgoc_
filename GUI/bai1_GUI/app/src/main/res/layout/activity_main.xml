@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editNumberA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập số A"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editNumberB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập số B"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@color/material_dynamic_primary70"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnSum"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="TỔNG"
+        android:background="@color/material_dynamic_neutral95"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btnSubtract"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="HIỆU"
+        android:background="@color/material_dynamic_neutral80"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btnMultiply"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="TÍCH"
+        android:background="@color/material_dynamic_neutral80"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btnDivide"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="THƯƠNG"
+        android:background="@color/material_dynamic_neutral80"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btnGCD"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="ƯỚC CHUNG LỚN NHẤT"
+        android:background="@color/material_dynamic_neutral80"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="THOÁT CHƯƠNG TRÌNH"
+        android:textColor="@android:color/holo_red_dark"
+        android:background="@color/material_dynamic_neutral80"
+        android:layout_marginTop="16dp" />
+
+
+</LinearLayout>
